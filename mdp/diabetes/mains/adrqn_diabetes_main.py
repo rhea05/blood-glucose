@@ -11,8 +11,7 @@ from prolonged_envs.diabetes.helpers.utils import register_single_patient_env, D
 
 if __name__ == '__main__':
 	# EXPERIMENTS = "../experiments/"
-	EXPERIMENTS = '/home/mila/b/basus/experiments/diabetes/adrqn/reduced_action/trial4/'
-	# EXPERIMENTS = '/home/mila/b/basus/experiments/diabetes/neurips/adrqn/'
+	EXPERIMENTS = '/'
 	
 	if not os.path.exists (EXPERIMENTS):
 		os.makedirs (EXPERIMENTS)
