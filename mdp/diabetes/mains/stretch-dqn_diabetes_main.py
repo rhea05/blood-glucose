@@ -56,12 +56,6 @@ if __name__ == '__main__':
 			'eps_decay': decay,
 			'seed': run + 1
 		}
-		# for run in range (5)
-		# for lr in [0.001, 0.0001, 0.0005]
-		# for lmbd in [ 0.99, 0.9]
-		# for semb in [ 16]
-		# for aemb in [32]
-		# for decay in [100, 500]
 		for run in range (5)
 		for lr in [0.0001]
 		for lmbd in [ 0.99 ]
